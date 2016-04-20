@@ -1,0 +1,42 @@
+DeployIntent deploy service {example|service}
+DeployIntent deploy the latest version of service {example|service}
+DeployIntent deploy service {example|service} version {one|version}
+DeployIntent deploy version {one|version} service {example|service}
+
+VersionIntent what's the latest version of service {example|service}
+VersionIntent what's the latest version of {example|service}
+VersionIntent what version of service {example|service} is deployed
+VersionIntent what version of service {example|service} is current deployed
+VersionIntent what version of {example|service} is deployed
+VersionIntent what version of {example|service} is current deployed
+VersionIntent what is the currently deployed version of {example|service}
+VersionIntent what is the deployed version of {example|service}
+VersionIntent what is the currently deployed version of service {example|service}
+VersionIntent what is the deployed version of service {example|service}
+
+PurgeIntent purge the url {www.example.com|url}
+PurgeIntent purge url {www.example.com|url}
+PurgeIntent purge {www.example.com|url}
+PurgeIntent purge all for {example|service}
+PurgeIntent purge all for service {example|service}
+PurgeIntent purge the key {example|key} for service {example|service}
+PurgeIntent purge key {example|key} for service {example|service}
+PurgeIntent purge the key {example|key} for {example|service}
+PurgeIntent purge key {example|key} for {example|service}
+
+HelpIntent help
+HelpIntent help me
+HelpIntent what can I ask you
+HelpIntent get help
+HelpIntent to help
+HelpIntent to help me
+HelpIntent what commands can I ask
+HelpIntent what commands can I say
+HelpIntent what can I do
+HelpIntent what can I use this for
+HelpIntent what questions can I ask
+HelpIntent what can you do
+HelpIntent what do you do
+HelpIntent how do I use you
+HelpIntent how can I use you
+HelpIntent what can you tell me

@@ -1,0 +1,56 @@
+{
+  "intents": [
+    {
+      "intent": "DeployIntent",
+      "slots": [
+        {
+          "name": "service",
+          "type": "LITERAL"
+        },
+        {
+          "name": "version",
+          "type": "NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "VersionIntent",
+      "slots": [
+        {
+          "name": "service",
+          "type": "LITERAL"
+        },
+      ]
+    },
+    {
+      "intent": "DeployedIntent",
+      "slots": [
+        {
+          "name": "service",
+          "type": "LITERAL"
+        },
+      ]
+    },
+    {
+      "intent": "PurgeIntent",
+      "slots": [
+        {
+          "name": "service",
+          "type": "LITERAL"
+        },
+        {
+          "name": "key",
+          "type": "LITERAL"
+        },
+        {
+          "name": "url",
+          "type": "LITERAL"
+        },
+      ]
+    },
+    {
+      "intent": "HelpIntent",
+      "slots": []
+    }
+  ]
+}

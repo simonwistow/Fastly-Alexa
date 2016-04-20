@@ -1,0 +1,4 @@
+- Handle stats
+DeployIntent what is my {hit ratio|metric} for {example|service}
+DeployIntent what is my {hit ratio|metric} for {example|service} in {ashburn|dc}
+DeployIntent what is my {hit ratio|metric} for {example|service} in the {us-west|region} region

@@ -1,0 +1,11 @@
+{
+  "name": "alexa-fastly",
+  "version": "0.0.5",
+  "description": "An Amazon Echo Skill that allows interaction with Fastly.",
+  "main": "index.js",
+  "author": "Simon Wistow ",
+  "license": "GPL",
+  "dependencies": {
+    "dotenv": "^1.2.0"
+  }
+}
