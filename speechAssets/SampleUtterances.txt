@@ -1,0 +1,25 @@
+DeployLatestIntent deploy service {example|service}
+DeployIntent deploy the latest version of service {example|service}
+DeployIntent deploy service {example|service} version {one|version}
+DeployIntent deploy version {one|version} service {example|service}
+
+VersionIntent what's the latest version of service {example|service}
+VersionIntent what's the latest version of {example|service}
+VersionIntent what version of service {example|service} is deployed
+VersionIntent what version of service {example|service} is current deployed
+VersionIntent what version of {example|service} is deployed
+VersionIntent what version of {example|service} is current deployed
+VersionIntent what is the currently deployed version of {example|service}
+VersionIntent what is the deployed version of {example|service}
+VersionIntent what is the currently deployed version of service {example|service}
+VersionIntent what is the deployed version of service {example|service}
+
+PurgeUrlIntent purge the url {www.example.com|url}
+PurgeUrlIntent purge url {www.example.com|url}
+PurgeUrlIntent purge {www.example.com|url}
+PurgeAllIntent purge all for {example|service}
+PurgeAllIntent purge all for service {example|service}
+PurgeKeyIntent purge the key {example|key} for service {example|service}
+PurgeKeyIntent purge key {example|key} for service {example|service}
+PurgeKeyIntent purge the key {example|key} for {example|service}
+PurgeKeyIntent purge key {example|key} for {example|service}
